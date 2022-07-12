@@ -2,7 +2,7 @@ import React from 'react'
 import { NavStyle } from '../Styles/Styles';
 const Logo = 'https://www.tryklas.com/navbar/logo-white.svg';
 
-const Repo = 'https://github.com/stephengade/Front-end-homework-challenge'
+const Repo = 'https://github.com/stephengade/Klas-FE-Challenge.git'
 
 
 
