@@ -22,17 +22,17 @@ Launches the test runner in the interactive watch mode.
 
 ## Mandatory
 
-- [y] Handles 100, 000s of rows
-- [x] Generic, reusable API that abstracts away the underlying implementation (I don't understand this)
-- [y] Light backend that serves up the data `src/components/Dashboard/services`
-- [y] Allow sorting by clicking on columns
+- [x] Handles 100, 000s of rows (Columns)
+- [] Generic, reusable API that abstracts away the underlying implementation (I don't understand this)
+- [x] Light backend that serves up the data `src/components/Dashboard/services`
+- [x] Allow sorting by clicking on columns
 
 ## Optional stretch goals
 
-- [y] Auto-sizes columns based on cell content
-- [y] Resizable (YES) / draggable columns (NO)
-- [y] Edit cell content (But can't save to DOM as no crud operation set)
-- [y] Ability to delete rows
-- [y] Tests
+- [x] Auto-sizes columns based on cell content
+- [x] Resizable (YES) / draggable columns (NO)
+- [x] Edit cell content (But can't save to DOM as no crud operation set)
+- [x] Ability to delete rows
+- [x] Tests
 
 
