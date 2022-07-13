@@ -1,13 +1,12 @@
 export interface ICustomers {
-    [x: string]: any;
-   id: number;
+   id?: number | string;
    date: string;
     name: string;
     email: string;
     phone: string;
     address: string;
     students: number,
-    action: "delete"
+    action?: "delete"
 }
 
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavStyle } from '../Styles/Styles';
+import { NavLinkStyle, NavStyle } from '../Styles/Styles';
 const Logo = 'https://www.tryklas.com/navbar/logo-white.svg';
 
 const Repo = 'https://github.com/stephengade/Klas-FE-Challenge.git'
@@ -16,6 +16,16 @@ const Navbar: React.FC<NavbarProps> = () => {
             <div className="brand_logo">
                 <img src={Logo} alt="Klas logo" />
             </div>
+
+              <NavLinkStyle>
+                <a href="/ ">
+                    Home
+                </a>
+                <a href="/add
+                ">
+                    Add a user
+                </a>
+                </NavLinkStyle>
 
             <div className="nav_button">
                 <button className="btn nav_btn">

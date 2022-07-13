@@ -87,3 +87,58 @@ export const TBodyStyle = styled.tbody`
     display: none;
   }
 `;
+
+
+export const NavLinkStyle = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+     a {
+    text-decoration: none;
+    color: #fff;
+     }
+`
+
+export const FormStyle = styled.form`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  @media (max-width: 768px) {
+    width: 80%;
+  }
+
+  input {
+    outline: none;
+    border: 1px solid #000;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+    transition: all 0.3s ease-in-out;
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+
+  button {
+    outline: none;
+    border: none;
+    background-color: #000;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+
+`;
